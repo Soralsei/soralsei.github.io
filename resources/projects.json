@@ -1,0 +1,26 @@
+[
+    {
+        "carouselId": "carousel-esp-32",
+        "controlId": "esp32-controls",
+        "title": "Arcade console prototype on ESP32",
+        "images": ["/aspic/ue-mmse/miniprojet/photo_montage.jpg", "/aspic/ue-mmse/miniprojet/photo_manette.jpg", "/aspic/ue-mmse/miniprojet/photo_jeu_bis.jpg"],
+        "body": "Recreation of the first level of Donkey Kong on an ESP32 using a custom-made controller and a 2.4\" TFT LCD. Shares the player's score on an MQTT broker for remote visualization. Uses a modified FabGl library for graphics/collision detection (added sprite flipping on X and Y to avoid duplicate flipped Bitmaps, added option for invisible sprite with collisions), the PubSubClient library for publishing the score to the MQTT broker, and custom-made classes for the inputs.",
+        "link": {
+            "url": "/aspic/ue-mmse/miniprojet/demo_mmse.mp4",
+            "text": "Demo video",
+            "toWindow": false
+        }
+    },
+    {
+        "carouselId": "carousel-play-store",
+        "controlId": "play-store-controls",
+        "title": "Mobile Game App",
+        "images": ["/resources/spire_escape/img.png", "/resources/spire_escape/img2.png", "/resources/spire_escape/img3.png"],
+        "body": "Very short platformer written in Java and made in the scope of the study unit on mobile programming of a computer science bachelor as a final project using LibGDX and Box2D. The game itself is a simple minimal-input platformer where you play as an adventurer trying to escape from a spire dungeon.",
+        "link": {
+            "url": "https://play.google.com/store/apps/details?id=com.kohio.deflesselle.rogue_run&pcampaignid=web_share",
+            "text": "Link to Play store",
+            "toWindow": true
+        }
+    }
+]
