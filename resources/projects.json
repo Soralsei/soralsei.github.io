@@ -3,7 +3,7 @@
         "carouselId": "carousel-esp-32",
         "controlId": "esp32-controls",
         "title": "Arcade console prototype on ESP32",
-        "images": ["/aspic/ue-mmse/miniprojet/photo_montage.jpg", "/aspic/ue-mmse/miniprojet/photo_manette.jpg", "/aspic/ue-mmse/miniprojet/photo_jeu_bis.jpg"],
+        "images": ["/resources/arcade/photo_montage.jpg", "/resources/arcade/photo_manette.jpg", "/resources/arcade/photo_jeu_bis.jpg"],
         "body": "Recreation of the first level of Donkey Kong on an ESP32 using a custom-made controller and a 2.4\" TFT LCD. Shares the player's score on an MQTT broker for remote visualization. Uses a modified FabGl library for graphics/collision detection (added sprite flipping on X and Y to avoid duplicate flipped Bitmaps, added option for invisible sprite with collisions), the PubSubClient library for publishing the score to the MQTT broker, and custom-made classes for the inputs.",
         "link": {
             "url": "/aspic/ue-mmse/miniprojet/demo_mmse.mp4",
